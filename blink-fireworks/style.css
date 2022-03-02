@@ -5,7 +5,9 @@ html, body {
 }
 
 html {
-  background-color: #fff6dc;
+  background-image: url("../images/giphy.gif");
+  background-repeat: repeat;
+
 }
 
 canvas {
@@ -14,18 +16,18 @@ canvas {
   left:50%;
   top:50%;
   transform: translate(-50%, -50%) scale(1.5);
-  border-style: dotted;
-  border-width: thin;
-  background-color: #f5dfbf;
-  padding:60px 40px 30px 40px;
+  
+  background-color: #ff57db;
+  padding:60px 30px 30px 30px;
   z-index: -1;
 }
 
 h1 {
   font-family: Helvetica, sans-serif;
-  font-size: 15pt;
-  font-weight: lighter;
-  margin-left:35vw;
+  font-size: 25pt;
+  font-weight: bolder;
+  color:rgb(255, 255, 255);
+  margin-left:25vw;
   margin-top: 8vh;
   z-index: 10;
   background-color:none;

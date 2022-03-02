@@ -114,6 +114,12 @@ function draw() {
         f.annotations.leftEyeLower0[3][0],
         f.annotations.leftEyeLower0[3][1]
       );
+      let rvLeft = createVector(
+        f.annotations.rightEyeUpper0[3][0],
+        f.annotations.rightEyeUpper0[3][1]
+      );
+      
+
       stroke("red");
       strokeWeight(5);
       let lhDist = dist(lhLeft.x, lhLeft.y, lhRight.x, lhRight.y);
@@ -127,6 +133,7 @@ function draw() {
         fill(255);
         //circle(lvLeft.x, lvLeft.y, 10);
         fireworks(lvLeft.x, lvLeft.y);
+        fireworks(rvLeft.x, rvLeft.y);
       }
 
       // grab the x and y position of each landmark
