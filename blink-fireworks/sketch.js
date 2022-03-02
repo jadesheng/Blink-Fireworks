@@ -226,7 +226,7 @@ async function getFaces() {
 
 
 function drawParticle(particle) {
-  let ageSize = map(particle.age, 0, particle.maxAge, 0, 0.1);
+  let ageSize = map(particle.age, 0, particle.maxAge, 0, 0.2);
   
   push();
   translate(particle.position.x, particle.position.y);
@@ -251,10 +251,10 @@ function fireworks(LeftEyeX,LeftEyeY){
     let particle = new Particle();
     // particle.acceleration = createVector(random(1, 3), random(1,3), 0);
     particle.acceleration = p5.Vector.fromAngle(radians(random(0, 360)), random(1, 10));
-    particle.angularAcceleration = createVector(0, 0, radians(random(-10, 10)));  
+    particle.angularAcceleration = createVector(0, 0, radians(random(-20, 20)));  
     particle.drag = 0.01;
     shuffle(color,true);
-    particle.maxAge = random(10, 50);
+    particle.maxAge = random(5, 20);
     particle.size = random(1,5);
     particle.fill = color[int(random(0,4))];
     particle.angularDrag = 0.01;

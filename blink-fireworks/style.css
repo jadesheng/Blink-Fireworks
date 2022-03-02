@@ -1,7 +1,13 @@
 html, body {
   margin: 0;
   padding: 0;
+
 }
+
+html {
+  background-color: #fff6dc;
+}
+
 canvas {
   display: block;
   position: absolute;
@@ -9,10 +15,18 @@ canvas {
   top:50%;
   transform: translate(-50%, -50%) scale(1.5);
   border-style: dotted;
+  border-width: thin;
+  background-color: #f5dfbf;
   padding:60px 40px 30px 40px;
+  z-index: -1;
 }
 
 h1 {
-  margin-left:28vw;
+  font-family: Helvetica, sans-serif;
+  font-size: 15pt;
+  font-weight: lighter;
+  margin-left:35vw;
   margin-top: 8vh;
+  z-index: 10;
+  background-color:none;
 }
