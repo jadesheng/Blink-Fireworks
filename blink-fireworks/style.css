@@ -18,7 +18,7 @@ canvas {
   transform: translate(-50%, -50%) scale(1.5);
   
   background-color: #ff57db;
-  padding:60px 30px 30px 30px;
+  padding:6% 30px 30px 30px;
   z-index: -1;
 }
 
@@ -28,7 +28,7 @@ h1 {
   font-weight: bolder;
   color:rgb(255, 255, 255);
   margin-left:25vw;
-  margin-top: 8vh;
+  margin-top: 7%;
   z-index: 10;
   background-color:none;
 }

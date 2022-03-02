@@ -129,7 +129,7 @@ function draw() {
       console.log(leftEyeRatio);
       //return leftEyeRatio;
 
-      if (leftEyeRatio > 2.6) {
+      if (leftEyeRatio > 3) {
         fill(255);
         //circle(lvLeft.x, lvLeft.y, 10);
         fireworks(lvLeft.x, lvLeft.y);
